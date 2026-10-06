@@ -1,0 +1,23 @@
+{
+  "id": "case_03",
+  "description": "Primary action button rendered with white text on a white background, making button text invisible.",
+  "type": "clear",
+  "must_find": [
+    [
+      "invisible",
+      "contrast",
+      "white text",
+      "white background",
+      "unreadable",
+      "hidden text",
+      "same color",
+      "cannot see"
+    ]
+  ],
+  "false_claims": [
+    "horizontal overflow",
+    "wrong layout",
+    "broken flexbox"
+  ],
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_03.png"
+}

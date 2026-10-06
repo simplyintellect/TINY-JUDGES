@@ -1,0 +1,20 @@
+{
+  "mode": "single",
+  "status": "SUCCESS",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_05.png",
+  "description": "Search input box where the search magnifying glass icon is misaligned 6px higher than text input baseline.",
+  "summary": "The search magnifying glass icon is vertically misaligned, sitting higher than the baseline of the input text.",
+  "issues": [
+    {
+      "issue": "Magnifying glass icon is misaligned (approximately 6px higher) than the text input baseline.",
+      "evidence": "In the search input field, the magnifying glass icon is visually positioned above the baseline of the text 'Wireless Headphones'.",
+      "probable_cause": "Lack of proper vertical alignment (e.g., missing 'vertical-align: middle' or incorrect flexbox alignment settings on the container)",
+      "confidence": 0.95
+    }
+  ],
+  "confidence": 0.95,
+  "latency": 48.793,
+  "model": "gemma-4-31b-it",
+  "parse_error": false,
+  "raw_response": "```json\n{\n  \"summary\": \"The search magnifying glass icon is vertically misaligned, sitting higher than the baseline of the input text.\",\n  \"issues\": [\n    {\n      \"issue\": \"Magnifying glass icon is misaligned (approximately 6px higher) than the text input baseline.\",\n      \"evidence\": \"In the search input field, the magnifying glass icon is visually positioned above the baseline of the text 'Wireless Headphones'.\",\n      \"probable_cause\": \"Lack of proper vertical alignment (e.g., missing 'vertical-align: middle' or incorrect flexbox alignment settings on the container)\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"confidence\": 0.95\n}\n```"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "case_06",
+  "description": "Article paragraph with cramped line-height (0.80) causing text lines to touch and slightly overlap.",
+  "type": "subtle",
+  "must_find": [
+    [
+      "line-height",
+      "line height",
+      "cramped",
+      "touching",
+      "squished",
+      "spacing",
+      "line spacing",
+      "overlap"
+    ]
+  ],
+  "false_claims": [
+    "broken image",
+    "contrast ratio under 1.5",
+    "missing cta"
+  ],
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_06.png"
+}

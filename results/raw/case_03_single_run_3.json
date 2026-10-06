@@ -1,0 +1,19 @@
+{
+  "mode": "single",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_03.png",
+  "description": "Primary action button rendered with white text on a white background, making button text invisible.",
+  "summary": "The primary action button is visually broken as the text is invisible due to a lack of color contrast against the button's background.",
+  "issues": [
+    {
+      "issue": "Primary action button text is invisible due to white text on a white background.",
+      "evidence": "The rounded rectangular element intended for the primary action appears as a blank white box within the 'Order Summary' card.",
+      "probable_cause": "Incorrect CSS styling where the button's text color is set to white (#FFFFFF) while the button background is also white, or a failure to apply a contrasting theme color.",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": 0.95,
+  "latency": 101.985,
+  "model": "gemma-4-31b-it",
+  "parse_error": false,
+  "raw_response": "```json\n{\n  \"summary\": \"The primary action button is visually broken as the text is invisible due to a lack of color contrast against the button's background.\",\n  \"issues\": [\n    {\n      \"issue\": \"Primary action button text is invisible due to white text on a white background.\",\n      \"evidence\": \"The rounded rectangular element intended for the primary action appears as a blank white box within the 'Order Summary' card.\",\n      \"probable_cause\": \"Incorrect CSS styling where the button's text color is set to white (#FFFFFF) while the button background is also white, or a failure to apply a contrasting theme color.\",\n      \"confidence\": 1.0\n    }\n  ],\n  \"confidence\": 0.95\n}\n```"
+}

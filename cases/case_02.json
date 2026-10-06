@@ -1,0 +1,23 @@
+{
+  "id": "case_02",
+  "description": "Form page where an absolute positioned submit button directly overlaps and obscures body text.",
+  "type": "clear",
+  "must_find": [
+    [
+      "overlap",
+      "overlapping",
+      "obscures",
+      "covers",
+      "collides",
+      "on top of",
+      "unreadable",
+      "blocked"
+    ]
+  ],
+  "false_claims": [
+    "missing image",
+    "spelling error",
+    "dark mode violation"
+  ],
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_02.png"
+}

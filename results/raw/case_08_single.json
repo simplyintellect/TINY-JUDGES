@@ -1,0 +1,13 @@
+{
+  "mode": "single",
+  "status": "SUCCESS",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_08.png",
+  "description": "Clean, properly styled mobile login form with no visual defects or layout bugs.",
+  "summary": "The UI appears correct and bug-free. The layout is clean, elements are well-aligned, and there are no visible visual defects.",
+  "issues": [],
+  "confidence": 0.95,
+  "latency": 35.178,
+  "model": "gemma-4-31b-it",
+  "parse_error": false,
+  "raw_response": "```json\n{\n  \"summary\": \"The UI appears correct and bug-free. The layout is clean, elements are well-aligned, and there are no visible visual defects.\",\n  \"issues\": [],\n  \"confidence\": 0.95\n}\n```"
+}

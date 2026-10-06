@@ -1,0 +1,23 @@
+{
+  "id": "case_04",
+  "description": "Modal dialog whose bottom content and action buttons are truncated off the bottom of the screen.",
+  "type": "clear",
+  "must_find": [
+    [
+      "clipped",
+      "cut off",
+      "truncated",
+      "overflow",
+      "bottom",
+      "hidden",
+      "outside viewport",
+      "cannot reach"
+    ]
+  ],
+  "false_claims": [
+    "misaligned icon",
+    "font family error",
+    "bad gradient"
+  ],
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_04.png"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "case_08",
+  "description": "Clean, properly styled mobile login form with no visual defects or layout bugs.",
+  "type": "no_bug",
+  "must_find": [],
+  "false_claims": [
+    "overlap",
+    "cut off",
+    "unreadable",
+    "misaligned",
+    "contrast issue",
+    "broken layout"
+  ],
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_08.png"
+}

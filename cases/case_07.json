@@ -1,0 +1,23 @@
+{
+  "id": "case_07",
+  "description": "Footer disclaimer text using faint light grey text (#e2e8f0) on white background violating contrast standards.",
+  "type": "subtle",
+  "must_find": [
+    [
+      "contrast",
+      "faint",
+      "pale",
+      "light gray",
+      "light grey",
+      "unreadable",
+      "accessibility",
+      "low contrast"
+    ]
+  ],
+  "false_claims": [
+    "horizontal overflow",
+    "button overlap",
+    "missing navigation"
+  ],
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_07.png"
+}

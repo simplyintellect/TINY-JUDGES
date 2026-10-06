@@ -1,0 +1,19 @@
+{
+  "mode": "single",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_01.png",
+  "description": "Mobile UI with a fixed 600px width banner causing horizontal page overflow scroll on a 390px mobile screen.",
+  "summary": "The mobile UI exhibits a critical layout bug where a fixed-width banner causes horizontal overflow and text cut-off on a 390px viewport.",
+  "issues": [
+    {
+      "issue": "Horizontal page overflow and content cut-off due to fixed-width banner.",
+      "evidence": "The blue banner extends beyond the right edge of the screen, and the text 'Featured Mobile Banner (Fixed' and 'forcing the 390px viewpor' is cut off on the right side.",
+      "probable_cause": "The banner container is assigned a fixed width of 600px, which exceeds the 390px mobile viewport width, instead of using responsive units like 'max-width: 100%'.",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": 1.0,
+  "latency": 94.521,
+  "model": "gemma-4-31b-it",
+  "parse_error": false,
+  "raw_response": "```json\n{\n  \"summary\": \"The mobile UI exhibits a critical layout bug where a fixed-width banner causes horizontal overflow and text cut-off on a 390px viewport.\",\n  \"issues\": [\n    {\n      \"issue\": \"Horizontal page overflow and content cut-off due to fixed-width banner.\",\n      \"evidence\": \"The blue banner extends beyond the right edge of the screen, and the text 'Featured Mobile Banner (Fixed' and 'forcing the 390px viewpor' is cut off on the right side.\",\n      \"probable_cause\": \"The banner container is assigned a fixed width of 600px, which exceeds the 390px mobile viewport width, instead of using responsive units like 'max-width: 100%'.\",\n      \"confidence\": 1.0\n    }\n  ],\n  \"confidence\": 1.0\n}\n```"
+}

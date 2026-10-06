@@ -1,0 +1,24 @@
+{
+  "id": "case_01",
+  "description": "Mobile UI with a fixed 600px width banner causing horizontal page overflow scroll on a 390px mobile screen.",
+  "type": "clear",
+  "must_find": [
+    [
+      "overflow",
+      "horizontal",
+      "scroll",
+      "width",
+      "cut off",
+      "clipping",
+      "exceeds",
+      "600px",
+      "too wide"
+    ]
+  ],
+  "false_claims": [
+    "broken image",
+    "typo",
+    "low contrast"
+  ],
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_01.png"
+}

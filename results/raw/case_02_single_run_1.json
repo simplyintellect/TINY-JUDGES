@@ -1,0 +1,19 @@
+{
+  "mode": "single",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_02.png",
+  "description": "Form page where an absolute positioned submit button directly overlaps and obscures body text.",
+  "summary": "A red 'SUBMIT FEEDBACK' button is incorrectly positioned, overlapping and obscuring the instructional text within the card.",
+  "issues": [
+    {
+      "issue": "Submit button overlaps and obscures body text.",
+      "evidence": "The red 'SUBMIT FEEDBACK' button is placed directly on top of the text 'Please review terms carefully before... will be permanently logged into your audit account history.', making the text unreadable.",
+      "probable_cause": "Incorrect use of absolute positioning or a layout collision where the button is not following the natural document flow.",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": 1.0,
+  "latency": 53.569,
+  "model": "gemma-4-31b-it",
+  "parse_error": false,
+  "raw_response": "```json\n{\n  \"summary\": \"A red 'SUBMIT FEEDBACK' button is incorrectly positioned, overlapping and obscuring the instructional text within the card.\",\n  \"issues\": [\n    {\n      \"issue\": \"Submit button overlaps and obscures body text.\",\n      \"evidence\": \"The red 'SUBMIT FEEDBACK' button is placed directly on top of the text 'Please review terms carefully before... will be permanently logged into your audit account history.', making the text unreadable.\",\n      \"probable_cause\": \"Incorrect use of absolute positioning or a layout collision where the button is not following the natural document flow.\",\n      \"confidence\": 1.0\n    }\n  ],\n  \"confidence\": 1.0\n}\n```"
+}

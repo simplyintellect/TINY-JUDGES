@@ -1,0 +1,58 @@
+[
+  {
+    "case_id": "case_01",
+    "case_type": "clear",
+    "mode": "single",
+    "latency": 94.521,
+    "confidence": 1.0,
+    "parse_error": false,
+    "hits": 1,
+    "total_groups": 1,
+    "recall": 1.0,
+    "has_false_claim": false,
+    "no_bug_correct": null,
+    "api_calls": 1
+  },
+  {
+    "case_id": "case_01",
+    "case_type": "clear",
+    "mode": "jury",
+    "latency": 311.08,
+    "confidence": 1.0,
+    "parse_error": false,
+    "hits": 1,
+    "total_groups": 1,
+    "recall": 1.0,
+    "has_false_claim": false,
+    "no_bug_correct": null,
+    "api_calls": 4
+  },
+  {
+    "case_id": "case_02",
+    "case_type": "clear",
+    "mode": "single",
+    "latency": 53.569,
+    "confidence": 1.0,
+    "parse_error": false,
+    "hits": 1,
+    "total_groups": 1,
+    "recall": 1.0,
+    "has_false_claim": false,
+    "no_bug_correct": null,
+    "api_calls": 1
+  },
+  {
+    "case_id": "case_03",
+    "case_type": "clear",
+    "mode": "single",
+    "latency": 82.035,
+    "confidence": 1.0,
+    "parse_error": false,
+    "hits": 1,
+    "total_groups": 1,
+    "recall": 1.0,
+    "has_false_claim": false,
+    "no_bug_correct": null,
+    "api_calls": 1
+  }
+]

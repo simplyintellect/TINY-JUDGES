@@ -1,0 +1,14 @@
+{
+  "mode": "single",
+  "status": "FAILED",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_06.png",
+  "description": "Article paragraph with cramped line-height (0.80) causing text lines to touch and slightly overlap.",
+  "summary": "API Call Failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "issues": [],
+  "confidence": 0.0,
+  "latency": 55.973,
+  "model": "gemma-4-31b-it",
+  "parse_error": true,
+  "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "raw_response": ""
+}

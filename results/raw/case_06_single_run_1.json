@@ -1,0 +1,19 @@
+{
+  "mode": "single",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_06.png",
+  "description": "Article paragraph with cramped line-height (0.80) causing text lines to touch and slightly overlap.",
+  "summary": "The paragraph text exhibits extremely cramped line-height, which severely impacts readability as lines of text are touching.",
+  "issues": [
+    {
+      "issue": "Cramped line-height in article paragraph causing text overlap.",
+      "evidence": "The vertical space between lines of text (e.g., between 'performance' and 'optimization', and 'speed,' and 'reduce') is insufficient, causing the lines to appear to touch or overlap.",
+      "probable_cause": "The CSS `line-height` property is set to an excessively low value (likely 0.8 as described), which is less than the font size.",
+      "confidence": 0.95
+    }
+  ],
+  "confidence": 0.95,
+  "latency": 90.425,
+  "model": "gemma-4-31b-it",
+  "parse_error": false,
+  "raw_response": "```json\n{\n  \"summary\": \"The paragraph text exhibits extremely cramped line-height, which severely impacts readability as lines of text are touching.\",\n  \"issues\": [\n    {\n      \"issue\": \"Cramped line-height in article paragraph causing text overlap.\",\n      \"evidence\": \"The vertical space between lines of text (e.g., between 'performance' and 'optimization', and 'speed,' and 'reduce') is insufficient, causing the lines to appear to touch or overlap.\",\n      \"probable_cause\": \"The CSS `line-height` property is set to an excessively low value (likely 0.8 as described), which is less than the font size.\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"confidence\": 0.95\n}\n```"
+}

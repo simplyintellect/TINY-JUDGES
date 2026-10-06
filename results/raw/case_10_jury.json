@@ -1,0 +1,79 @@
+{
+  "mode": "jury",
+  "status": "PARTIAL_SUCCESS",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_10.png",
+  "description": "Settings page with a dark theme toggle situated near a floating action badge, creating ambiguous visual hierarchy.",
+  "final_answer": "Reconciler API failed (500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}). Consolidated findings from 1 judges.",
+  "agreement_summary": "1 judges completed successfully.",
+  "disagreements": [
+    "Reconciliation step API error: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+  ],
+  "decision_reason": "Direct union of successful judge issues.",
+  "issues": [
+    {
+      "issue": "The 'BETA' label is too close to the toggle switch.",
+      "evidence": "The yellow BETA badge is squeezed right next to the green switch, making it look cluttered.",
+      "probable_cause": "Not enough space left between the badge and the toggle button."
+    },
+    {
+      "issue": "The bright yellow color of the 'BETA' badge is jarring.",
+      "evidence": "The neon yellow stands out too much against the dark blue background, drawing the eye away from the actual setting.",
+      "probable_cause": "Poor color choice for a dark theme."
+    },
+    {
+      "issue": "There is a huge amount of wasted empty space.",
+      "evidence": "Only one setting is at the top, and the rest of the screen is just a dark void.",
+      "probable_cause": "Lack of other settings or poor use of screen real estate."
+    }
+  ],
+  "confidence": 0.5,
+  "latency": 93.367,
+  "judge_outputs": [
+    {
+      "role": "expert",
+      "status": "FAILED",
+      "summary": "Judge failed due to API error: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+      "issues": [],
+      "confidence": 0.0,
+      "parse_error": true,
+      "error": "500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+    },
+    {
+      "role": "skeptic",
+      "status": "FAILED",
+      "summary": "Judge failed due to API error: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+      "issues": [],
+      "confidence": 0.0,
+      "parse_error": true,
+      "error": "500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+    },
+    {
+      "role": "beginner",
+      "summary": "The screen feels empty and the 'BETA' tag is awkwardly placed and too bright.",
+      "issues": [
+        {
+          "issue": "The 'BETA' label is too close to the toggle switch.",
+          "evidence": "The yellow BETA badge is squeezed right next to the green switch, making it look cluttered.",
+          "probable_cause": "Not enough space left between the badge and the toggle button."
+        },
+        {
+          "issue": "The bright yellow color of the 'BETA' badge is jarring.",
+          "evidence": "The neon yellow stands out too much against the dark blue background, drawing the eye away from the actual setting.",
+          "probable_cause": "Poor color choice for a dark theme."
+        },
+        {
+          "issue": "There is a huge amount of wasted empty space.",
+          "evidence": "Only one setting is at the top, and the rest of the screen is just a dark void.",
+          "probable_cause": "Lack of other settings or poor use of screen real estate."
+        }
+      ],
+      "confidence": 0.9,
+      "parse_error": false,
+      "raw_response": "```json\n{\n  \"role\": \"beginner\",\n  \"summary\": \"The screen feels empty and the 'BETA' tag is awkwardly placed and too bright.\",\n  \"issues\": [\n    {\n      \"issue\": \"The 'BETA' label is too close to the toggle switch.\",\n      \"evidence\": \"The yellow BETA badge is squeezed right next to the green switch, making it look cluttered.\",\n      \"probable_cause\": \"Not enough space left between the badge and the toggle button.\"\n    },\n    {\n      \"issue\": \"The bright yellow color of the 'BETA' badge is jarring.\",\n      \"evidence\": \"The neon yellow stands out too much against the dark blue background, drawing the eye away from the actual setting.\",\n      \"probable_cause\": \"Poor color choice for a dark theme.\"\n    },\n    {\n      \"issue\": \"There is a huge amount of wasted empty space.\",\n      \"evidence\": \"Only one setting is at the top, and the rest of the screen is just a dark void.\",\n      \"probable_cause\": \"Lack of other settings or poor use of screen real estate.\"\n    }\n  ],\n  \"confidence\": 0.9\n}\n```"
+    }
+  ],
+  "model": "gemma-4-31b-it",
+  "parse_error": true,
+  "error": "500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+  "raw_response": ""
+}

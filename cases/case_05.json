@@ -1,0 +1,23 @@
+{
+  "id": "case_05",
+  "description": "Search input box where the search magnifying glass icon is misaligned 6px higher than text input baseline.",
+  "type": "subtle",
+  "must_find": [
+    [
+      "misaligned",
+      "icon",
+      "vertical",
+      "offset",
+      "alignment",
+      "uneven",
+      "top",
+      "not centered"
+    ]
+  ],
+  "false_claims": [
+    "white text",
+    "horizontal scrollbar",
+    "missing header"
+  ],
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_05.png"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "case_10",
+  "description": "Settings page with a dark theme toggle situated near a floating action badge, creating ambiguous visual hierarchy.",
+  "type": "vague",
+  "must_find": [
+    [
+      "ambiguous",
+      "hierarchy",
+      "spacing",
+      "alignment",
+      "toggle",
+      "gap",
+      "confusing",
+      "floating"
+    ]
+  ],
+  "false_claims": [
+    "white on white text",
+    "page crash",
+    "horizontal overflow scrollbar"
+  ],
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_10.png"
+}

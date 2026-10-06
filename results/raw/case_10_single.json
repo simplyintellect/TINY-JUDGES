@@ -1,0 +1,20 @@
+{
+  "mode": "single",
+  "status": "SUCCESS",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_10.png",
+  "description": "Settings page with a dark theme toggle situated near a floating action badge, creating ambiguous visual hierarchy.",
+  "summary": "The UI contains a visual hierarchy issue where a high-contrast 'BETA' badge is placed too close to the toggle switch, competing for visual attention and potentially causing confusion.",
+  "issues": [
+    {
+      "issue": "Ambiguous visual hierarchy and poor spacing between the 'BETA' badge and the toggle switch.",
+      "evidence": "The bright yellow 'BETA' badge is positioned immediately adjacent to the green toggle switch, creating two competing high-contrast focal points on the right side of the container.",
+      "probable_cause": "Lack of defined spacing/margin between the status badge and the interactive control, and use of competing high-saturation colors in close proximity.",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": 0.95,
+  "latency": 53.537,
+  "model": "gemma-4-31b-it",
+  "parse_error": false,
+  "raw_response": "```json\n{\n  \"summary\": \"The UI contains a visual hierarchy issue where a high-contrast 'BETA' badge is placed too close to the toggle switch, competing for visual attention and potentially causing confusion.\",\n  \"issues\": [\n    {\n      \"issue\": \"Ambiguous visual hierarchy and poor spacing between the 'BETA' badge and the toggle switch.\",\n      \"evidence\": \"The bright yellow 'BETA' badge is positioned immediately adjacent to the green toggle switch, creating two competing high-contrast focal points on the right side of the container.\",\n      \"probable_cause\": \"Lack of defined spacing/margin between the status badge and the interactive control, and use of competing high-saturation colors in close proximity.\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"confidence\": 0.95\n}\n```"
+}

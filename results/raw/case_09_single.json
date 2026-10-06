@@ -1,0 +1,14 @@
+{
+  "mode": "single",
+  "status": "FAILED",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_09.png",
+  "description": "Clean e-commerce product card with high resolution image placeholder, title, rating, price, and CTA.",
+  "summary": "API Call Failed: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+  "issues": [],
+  "confidence": 0.0,
+  "latency": 2.99,
+  "model": "gemma-4-31b-it",
+  "parse_error": true,
+  "error": "500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+  "raw_response": ""
+}

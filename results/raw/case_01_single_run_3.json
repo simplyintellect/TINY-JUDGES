@@ -1,0 +1,19 @@
+{
+  "mode": "single",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_01.png",
+  "description": "Mobile UI with a fixed 600px width banner causing horizontal page overflow scroll on a 390px mobile screen.",
+  "summary": "The UI exhibits a horizontal overflow issue where a fixed-width banner exceeds the viewport width, causing content to be cut off.",
+  "issues": [
+    {
+      "issue": "Horizontal overflow and text truncation on 390px viewport",
+      "evidence": "The blue banner's text ('Featured Mobile Banner (Fixed' and 'This box is 600px wide, forcing the 390px viewpor') is cut off on the right side of the screen, and the banner element itself extends beyond the visible area.",
+      "probable_cause": "The banner element has a hardcoded fixed width of 600px, which exceeds the 390px viewport width, and lacks responsive CSS properties like 'max-width: 100%' or 'overflow: hidden/auto' on the parent container.",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": 1.0,
+  "latency": 54.871,
+  "model": "gemma-4-31b-it",
+  "parse_error": false,
+  "raw_response": "```json\n{\n  \"summary\": \"The UI exhibits a horizontal overflow issue where a fixed-width banner exceeds the viewport width, causing content to be cut off.\",\n  \"issues\": [\n    {\n      \"issue\": \"Horizontal overflow and text truncation on 390px viewport\",\n      \"evidence\": \"The blue banner's text ('Featured Mobile Banner (Fixed' and 'This box is 600px wide, forcing the 390px viewpor') is cut off on the right side of the screen, and the banner element itself extends beyond the visible area.\",\n      \"probable_cause\": \"The banner element has a hardcoded fixed width of 600px, which exceeds the 390px viewport width, and lacks responsive CSS properties like 'max-width: 100%' or 'overflow: hidden/auto' on the parent container.\",\n      \"confidence\": 1.0\n    }\n  ],\n  \"confidence\": 1.0\n}\n```"
+}

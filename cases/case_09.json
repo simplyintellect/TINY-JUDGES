@@ -1,0 +1,14 @@
+{
+  "id": "case_09",
+  "description": "Clean e-commerce product card with high resolution image placeholder, title, rating, price, and CTA.",
+  "type": "no_bug",
+  "must_find": [],
+  "false_claims": [
+    "truncated",
+    "overlapping text",
+    "low contrast",
+    "horizontal scroll",
+    "clipped"
+  ],
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_09.png"
+}

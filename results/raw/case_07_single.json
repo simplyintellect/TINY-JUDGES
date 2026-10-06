@@ -1,0 +1,20 @@
+{
+  "mode": "single",
+  "status": "SUCCESS",
+  "image_path": "C:\\Users\\Shravani\\OneDrive\\Desktop\\tiny judges\\cases\\case_07.png",
+  "description": "Footer disclaimer text using faint light grey text (#e2e8f0) on white background violating contrast standards.",
+  "summary": "Low contrast for footer disclaimer text violating accessibility standards.",
+  "issues": [
+    {
+      "issue": "The footer disclaimer text has insufficient color contrast against the white background, violating WCAG accessibility standards.",
+      "evidence": "The text starting with '* Notice: By clicking submit...' is rendered in a very light grey color, making it barely legible against the white card background.",
+      "probable_cause": "The use of a light grey hex code (e.g., #e2e8f0) for text on a white background fails to meet the minimum contrast ratio required for readability.",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": 0.95,
+  "latency": 39.116,
+  "model": "gemma-4-31b-it",
+  "parse_error": false,
+  "raw_response": "```json\n{\n  \"summary\": \"Low contrast for footer disclaimer text violating accessibility standards.\",\n  \"issues\": [\n    {\n      \"issue\": \"The footer disclaimer text has insufficient color contrast against the white background, violating WCAG accessibility standards.\",\n      \"evidence\": \"The text starting with '* Notice: By clicking submit...' is rendered in a very light grey color, making it barely legible against the white card background.\",\n      \"probable_cause\": \"The use of a light grey hex code (e.g., #e2e8f0) for text on a white background fails to meet the minimum contrast ratio required for readability.\",\n      \"confidence\": 1.0\n    }\n  ],\n  \"confidence\": 0.95\n}\n```"
+}
